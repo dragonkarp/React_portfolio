@@ -1,6 +1,9 @@
 import React from "react";
-import TopNavbar from "./components/TopNavbar"
-import BottomBar from "./components/BottomBar"
+// import {TopNavbar} from "./TopNavbar"
+// import {BottomBar} from "./BottomBar"
+
+import TopNavbar from "../../components/TopNavbar/index.js"
+import BottomBar from "../../components/BottomBar/index.js"
 
 
 function Homepage() {

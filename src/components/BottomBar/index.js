@@ -1,5 +1,5 @@
 import React from "react";
-// import { Button, Navbar, Form} from "react-bootstrap"
+import { Button, Navbar, Form} from "react-bootstrap"
 
 function BottomBar() {
     return (
