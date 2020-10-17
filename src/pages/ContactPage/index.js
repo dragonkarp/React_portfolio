@@ -6,7 +6,7 @@ import BottomBar from "../../components/BottomBar/index.js"
 function ContagePage() {
   return (
     <div>
-        <TopNavbar />
+        <h1>Contact me</h1>
         
         <BottomBar /> 
     </div>

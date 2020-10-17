@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Navbar, Nav, Form, FormControl} from "react-bootstrap"
+import { Navbar, Nav } from "react-bootstrap"
 
 function TopNavbar() {
     return (
@@ -7,9 +7,9 @@ function TopNavbar() {
             <Navbar bg="dark" variant="dark">
                 <Navbar.Brand href="#home">Michael Li</Navbar.Brand>
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#projects">Projects</Nav.Link>
-                    <Nav.Link href="#contact">Contact</Nav.Link>
+                    <Nav.Link href="/home">Home</Nav.Link>
+                    <Nav.Link href="/projects">Projects</Nav.Link>
+                    <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
             </Navbar>
             <br />
